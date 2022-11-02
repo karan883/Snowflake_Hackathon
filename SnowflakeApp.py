@@ -28,7 +28,7 @@ with st.form("myform1",clear_on_submit=True):
   vibration = st.text_input("Enter Vibration")
   btn = st.form_submit_button("Submit")
 
-  st.markdown(few_style,unsafe_allow_html=True)
   
 if btn:
+  st.markdown(few_style,unsafe_allow_html=True)
   st.write("Machine Fails")
