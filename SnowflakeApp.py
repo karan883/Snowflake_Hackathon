@@ -1,41 +1,19 @@
 import streamlit as st
-
-few_style="""
-<style>
-.e16nr0p34 p{
-  height:max-content;
-  width:max-content;
-  padding:20px;
-  color:white;
-  background-color:red;
-}
-
-</style>
-"""
+from pycaret.classification import *
+import pandas
 
 
 st.title("Predictive Maintainance")
 st.subheader("By team Blizzard")
-# temp = False
-# with st.form("myform1",clear_on_submit=True):
-#   voltage = st.text_input("Enter Voltage")
-#   rotation = st.text_input("Enter Rotation")
-#   Pressure = st.text_input("Enter Pressure")
-#   vibration = st.text_input("Enter Vibration")
-#   btn = st.form_submit_button("Submit")
 
+data = st.file_uploader("Upload input CSV file",type=["csv"])
+# if st.button("Predict"):
   
-# if btn:
-#   temp = True
 
-# if temp:
-#   st.markdown(few_style,unsafe_allow_html=True)
-#   st.write("Machine Fails")
-#   if st.button("Check For Another Value"):
-#     onChangeFunc()
-  
-# def onChangeFunc():
-#   temp = False
 
+def forcast(data):
+    saved_final_lr = load_model('Final_LR_Model')
+    new_prediction = predict_model(saved_final_lr, data=data)
+    return new_prediction
 
 
