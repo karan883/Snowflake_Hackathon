@@ -8,3 +8,5 @@ with st.form("myform1",clear_on_submit=True):
   Pressure = st.text_input("Enter Pressure")
   vibration = st.text_input("Enter Vibration")
   button = st.form_submit_button("Submit")
+
+st.write("Machine Fails")
