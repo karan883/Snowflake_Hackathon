@@ -5,7 +5,7 @@ few_style="""
 [data-test-id="stMarkdownContainer"]{
   height:50px;
   width:50px;
-  background-color:'red'
+  background-color:red;
 }
 </style>
 """
