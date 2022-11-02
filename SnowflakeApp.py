@@ -31,9 +31,7 @@ if btn:
 if temp:
   st.markdown(few_style,unsafe_allow_html=True)
   st.write("Machine Fails")
-  btn1 = st.button("Check another value")
+  st.button("Check another value",on_click = onChangeFunc)
   
-if btn1:
-  temp=False
-# def onChangeFunc():
-#   temp = False
+def onChangeFunc():
+  temp = False
