@@ -7,6 +7,13 @@ few_style="""
   width:50px;
   background-color:red;
 }
+.e16nr0p34{
+  height:50px;
+  width:50px;
+  background-color:red;
+
+}
+
 </style>
 """
 
