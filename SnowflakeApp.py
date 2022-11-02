@@ -2,7 +2,7 @@ import streamlit as st
 
 few_style="""
 <style>
-[data-test-id="stMarkdownContainer"]{
+.e16nr0p34{
   height:50px;
   width:auto;
   padding-left:20px;
