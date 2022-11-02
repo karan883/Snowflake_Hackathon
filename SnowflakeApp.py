@@ -1,4 +1,16 @@
 import streamlit as st
+
+few_style="""
+<style>
+[data-test-id="stMarkdownContainer"]{
+  height:50px;
+  width:50px;
+  background-color:'red'
+}
+</style>
+"""
+
+
 st.title("Predictive Maintainance")
 st.subheader("By team Blizzard")
 
