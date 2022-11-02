@@ -10,5 +10,5 @@ with st.form("myform1",clear_on_submit=True):
   btn = st.form_submit_button("Submit")
 
   
-if st.button('btn'):
+if btn:
   st.write("Machine Fails")
