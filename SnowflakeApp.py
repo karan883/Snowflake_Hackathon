@@ -7,6 +7,8 @@ with st.form("myform1",clear_on_submit=True):
   rotation = st.text_input("Enter Rotation")
   Pressure = st.text_input("Enter Pressure")
   vibration = st.text_input("Enter Vibration")
-  button = st.form_submit_button("Submit")
+  btn = st.form_submit_button("Submit")
 
-st.write("Machine Fails")
+  
+if st.button('btn'):
+  st.write("Machine Fails")
