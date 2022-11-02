@@ -2,7 +2,7 @@ import streamlit as st
 st.title("Predictive Maintainance")
 st.subheader("By team Blizzard")
 
-with st.form("myform1"):
+with st.form("myform1",clear_on_submit=true):
   voltage = st.text_input("Enter Voltage")
   rotation = st.text_input("Enter Rotation")
   Pressure = st.text_input("Enter Pressure")
