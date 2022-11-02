@@ -7,7 +7,8 @@ st.title("Predictive Maintainance")
 st.subheader("By team Blizzard")
 
 data = st.file_uploader("Upload input CSV file")
-st.dataframe(data)
+myInput = pandas.read_csv(data)
+st.dataframe(myInput)
 # if st.button("Predict"):
   
 
