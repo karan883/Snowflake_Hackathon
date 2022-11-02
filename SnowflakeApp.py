@@ -4,14 +4,10 @@ few_style="""
 <style>
 [data-test-id="stMarkdownContainer"]{
   height:50px;
-  width:50px;
+  width:auto;
+  padding-left:20px;
+  padding-right:20px;
   background-color:red;
-}
-.e16nr0p34{
-  height:50px;
-  width:50px;
-  background-color:red;
-
 }
 
 </style>
