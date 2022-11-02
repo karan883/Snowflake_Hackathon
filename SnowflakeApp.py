@@ -4,7 +4,7 @@ few_style="""
 <style>
 .e16nr0p34{
   height:50px;
-  width:auto;
+  width:max-content;
   padding-left:20px;
   padding-right:20px;
   background-color:red;
