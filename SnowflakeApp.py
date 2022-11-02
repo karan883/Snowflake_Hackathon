@@ -7,6 +7,7 @@ st.title("Predictive Maintainance")
 st.subheader("By team Blizzard")
 
 data = st.file_uploader("Upload input CSV file",type=["csv"])
+st.dataframe(data)
 # if st.button("Predict"):
   
 
