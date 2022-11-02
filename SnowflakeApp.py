@@ -2,7 +2,7 @@ import streamlit as st
 
 few_style="""
 <style>
-.e16nr0p34{
+.e16nr0p34 p{
   height:max-content;
   width:max-content;
   padding:20px;
