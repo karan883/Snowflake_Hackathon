@@ -3,10 +3,10 @@ import streamlit as st
 few_style="""
 <style>
 .e16nr0p34{
-  height:50px;
+  height:max-content;
   width:max-content;
-  padding-left:20px;
-  padding-right:20px;
+  padding:20px;
+  color:white;
   background-color:red;
 }
 
